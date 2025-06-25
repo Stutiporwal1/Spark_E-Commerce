@@ -1,0 +1,280 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Electronics</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden"
+      style='--select-button-svg: url(&apos;data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(78,121,151)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e&apos;); font-family: "Work Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eef3] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0e151b]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em]">PersonalAI</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Categories</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Deals</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Services</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#4e7997] flex border-none bg-[#e7eef3] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border-none bg-[#e7eef3] focus:border-none h-full placeholder:text-[#4e7997] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e7eef3] text-[#0e151b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#0e151b]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Filters</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e151b] text-base font-medium leading-normal pb-2">Category</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border border-[#d0dde7] bg-slate-50 focus:border-[#d0dde7] h-14 bg-[image:--select-button-svg] placeholder:text-[#4e7997] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">All Categories</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e151b] text-base font-medium leading-normal pb-2">Brand</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border border-[#d0dde7] bg-slate-50 focus:border-[#d0dde7] h-14 bg-[image:--select-button-svg] placeholder:text-[#4e7997] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">All Brands</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="@container">
+              <div class="relative flex w-full flex-col items-start justify-between gap-3 p-4 @[480px]:flex-row">
+                <p class="text-[#0e151b] text-base font-medium leading-normal w-full shrink-[3]">Price Range</p>
+                <div class="flex h-[38px] w-full pt-1.5">
+                  <div class="flex h-1 w-full rounded-sm bg-[#d0dde7] pl-[60%] pr-[15%]">
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#1990e5]"></div>
+                        <p class="text-[#0e151b] text-sm font-normal leading-normal">10</p>
+                      </div>
+                    </div>
+                    <div class="h-1 flex-1 rounded-sm bg-[#1990e5]"></div>
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#1990e5]"></div>
+                        <p class="text-[#0e151b] text-sm font-normal leading-normal">1000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e151b] text-base font-medium leading-normal pb-2">Rating</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border border-[#d0dde7] bg-slate-50 focus:border-[#d0dde7] h-14 bg-[image:--select-button-svg] placeholder:text-[#4e7997] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Any Rating</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <a class="text-[#4e7997] text-base font-medium leading-normal" href="#">Home</a>
+              <span class="text-[#4e7997] text-base font-medium leading-normal">/</span>
+              <span class="text-[#0e151b] text-base font-medium leading-normal">Electronics</span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0e151b] tracking-light text-[32px] font-bold leading-tight min-w-72">Electronics</p></div>
+            <div class="flex gap-3 p-3 flex-wrap pr-4">
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7eef3] pl-4 pr-4">
+                <p class="text-[#0e151b] text-sm font-medium leading-normal">Category: All</p>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7eef3] pl-4 pr-4">
+                <p class="text-[#0e151b] text-sm font-medium leading-normal">Brand: All</p>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7eef3] pl-4 pr-4">
+                <p class="text-[#0e151b] text-sm font-medium leading-normal">Price: $10 - $1000</p>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7eef3] pl-4 pr-4">
+                <p class="text-[#0e151b] text-sm font-medium leading-normal">Rating: Any</p>
+              </div>
+            </div>
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Sort By</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border border-[#d0dde7] bg-slate-50 focus:border-[#d0dde7] h-14 bg-[image:--select-button-svg] placeholder:text-[#4e7997] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Relevance</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbHvhTQ5RLYgHngWP0Rwr7X_8gUsT07eQj-_GQKiHaG9OWVQ3POOQWlCVDuIb3ulpWF1YNdKubL5Dib4tWM-Fo7eLdb-A4FSSZkr51vEFYWkeuPPUaOe2wBRodeL3itTS-r8d1nNcT8W37POssiJdDWxUzZm4EubzZ-VA9nWOSEP9b6r_61sh6N9CCedlS-dCiHLwvuvYP7N6B3mDrXNerkXGcN-toK2z0R5Hx9uX5C8CWo16UkB3bsJgxN0DazsSbc2QeOsXrf_c");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Smart TV 55-inch</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Experience stunning visuals with this 4K Smart TV.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoMSZ0ShqRTLTRTNbnx3ima5OmUKuekPBkpI5n2oq2oLFy7UnXjMIRUi3dVShnuTPvTsVG2FLPmoOghgUZ_ShOWH3nHhuGisXJ8KG19gzAyB0lyte0zM0O3-bgwznwT0QeNDMtaLhwrFWVaQjUeD0zWasa4hYVFrlxBC6K2X_cgI-0R3YM-DKhmuOLSp3Wp74gBsCyEdUVuPZN2AS2a14PpmP0UyFBest-xUXCRTn2ZxCX4lzVq43EADtpGnjSpHnCviulcuzTBvs");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Wireless Headphones</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Enjoy immersive sound with these noise-canceling headphones.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDNSkwBJbLrsATPVRpGLwvtmp48n11VEjLmHzIENqE62wdp8anJv2lQm5DQ6-jjzqkj2fW3-akvDVC3me6FY8gN1l691Yck955_rmD_5EW6yOlG11oYYYbhZkg39n3GpPtYiUMk4DSzdmDNRTQdc4ifUD3Tlk-kg6cUXQIZ__e0_06Lm0I5OK4bH5qaiidejUWGf_OC4RaGGyRmnQcwLhn7EWl4S5s_3ySHx1rBdlYxXt4n264zCxXgm4yLlHkoymbQxVzF0js4HDg");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Laptop 15-inch</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Powerful laptop for work and play.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTyyHlltG0MOzflwOpdLjsYkRSCqJJtgwfKWy0_kZvmmLCjc5MggRGZLoD38lV8nqkuLaABgrWVrGvzww9yn1PZZPKHmFVUcQv38EcB2tmFPWTnvtDjDQcH7Xoq8OCCwc1dSWwzFp2VNu9ccVBKjxjAIDRvDKnkKnP7KO5DWE7QvrLjXMY6Fwh7O8UAYK5vfaUpNQJGFs-xKlGiphv_9TvnURKnFBVt9x9upOzy9_9k84wQ8fnKM4hMxGB3Z0LFXXB2OCDYbKa-bg");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Digital Camera</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Capture high-quality photos and videos.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAunIcD58pfJ46MvGcuvTTDAiD8M-_ghtpc2f06BNe1_A8FeNQoi3h4qeoQHZqXR8uRl0aLMiAGCbisTtb6977ILH-LjVALrG_IIpiaPPfCz3ZFqTlT0ZCinTICPtMRAwkLCZ_XZ1HjnggzwRErFHm5N5DIsMUlRQaslepWaC9-6eC2sGVEPDPWeYdCtcunbXpXib6fUL8A4-fNhPG6sFoSynRDB5KzsD1i52_PZ0babrkp3-EyNWVDKUglIlmdoIEk3R9wCGP437A");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Bluetooth Speaker</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Portable speaker with rich bass.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuARXkwPKnWNe3Nns7kLtokIC29J-pAkuimRSeOP4dAcK5VSaVi9hbGTBYkf44frQp4y4KkzKT6HK37-vB1xHbhh9OccwJLJX5HGT6mXa9dA-5KB3NOVeQ2cqCi211j8r5142BhVGf0HEyUZo5iuDq9SAYFQprvS-IHvCoG9ZALAMwGS23--P4AI_yGNEgUbr2f7SQT4BsoXniMQaJRnJPImZMBnBueOZjp19kjM4Bjn8TJS_fqyXKTHBeE1S-E3-K-G42WyXNrGZYY");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Smartwatch</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Track your fitness and stay connected.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBsJgIl64jjDxw_4832qrW7qwxurVFAkYne2p5LB8P925Wn1FZwsixF7NqV3xpmrXdYddHNVS3Lh2DcA4cGsAsheiCeSL4AFgTUzsEK7CElkPg4NyE8PVokun49VZ18qWGaL6FuZMi9x0_5VOLi42LPDSvGldFugy545rzlFKIU0p8LdOqMNYO16V8ZutqmlhhpNfoMprc_9gTfucCDzmF2UsLyltuGAKU3SZPcjfnkQoAPln80ZzaLUdNKvYLGaS9Xhk1gu00cHO8");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Gaming Console</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Next-gen console for immersive gaming.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDEOBssvUvJzu_2b7fTUu4WTW2unSNIxPMpgqmGDJmkmo6sAf8WwjRmymrYajXkadNJeHeIrNeDD2bgpeBMCgZgXx_q0TGulxnuptHHCIm0lAgz00-5FBYHY5YuyXmDMQz89ypwl9AEob9i3P1r4Kkc4B5duCH9KJ16qM2AKsD-T8NKDZz6mcaS4DECfpt5ahjAe25kXHvwGOSJXhddhNsPN2vLo3nqjdxDFH7ZF06ecNwf-mhuIJ6hKODm7E2UAZgg6u6BPYjphPo");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Tablet 10-inch</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">Versatile tablet for entertainment and productivity.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center p-4">
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#0e151b]" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-[#0e151b] rounded-full bg-[#e7eef3]" href="#">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">2</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">3</a>
+              <span class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">...</span>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">10</a>
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#0e151b]" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
