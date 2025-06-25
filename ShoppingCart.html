@@ -1,0 +1,178 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Shopping Cart</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eef3] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0e151b]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em]">PersonalAI</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Shop</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Deals</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Grocery</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Pharmacy</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#4e7997] flex border-none bg-[#e7eef3] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border-none bg-[#e7eef3] focus:border-none h-full placeholder:text-[#4e7997] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e7eef3] text-[#0e151b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0e151b]" data-icon="Heart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e7eef3] text-[#0e151b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0e151b]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <a class="text-[#4e7997] text-base font-medium leading-normal" href="#">Shopping Cart</a>
+              <span class="text-[#4e7997] text-base font-medium leading-normal">/</span>
+              <span class="text-[#0e151b] text-base font-medium leading-normal">Checkout</span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0e151b] tracking-light text-[32px] font-bold leading-tight min-w-72">Shopping Cart</p></div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex items-center gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDhlaaFGmcrvwrPMX5l3PD36U-jmcZhdb9qMu7dy7_hJC1koCIyI2LL_-kfaiFbnRqUnbuR6rwYYmT7rjhHoGq3b9S5L6FVyOjNpuirNdE1wi7hVQ6-u2maORk6w1Uj8Fizj0htrxv-vpWjpxOzX2Uh9fsKdlY9qhfLur9G0dCGku3xfRP3bq6pOU6EU4uEZ6iqxIE6C7j6FcNjNhOK6ADdiQKOc3Oh66UgQ603C7WYY9OeMIySocoXPuun_1K1R4Ue_Pso7T4ZtNw");'
+                ></div>
+                <div class="flex flex-col justify-center">
+                  <p class="text-[#0e151b] text-base font-medium leading-normal line-clamp-1">Smart Home Speaker</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal line-clamp-2">Quantity: 1</p>
+                </div>
+              </div>
+              <div class="shrink-0"><p class="text-[#0e151b] text-base font-normal leading-normal">$49.99</p></div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex items-center gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA4mw8esaUU5NfLFvHFeq_7jhRAmljIwwmWvFTq4ZE-qPmhPrtEWDWl_9zkep3sHioAKDygZ0AoBaorXizDD5JH8DScyCOnRLb8AzN3Ay4RTHZOUzb9v3hVSsiniXaIIvkvqnMKshjUdJD88sYJU2FpmQSBQbPb6xv-VPUBjMYKonukwLUAIaiTUNRrXNnzloMx-g2BOL9jEnHDebKOhuvsODaAVGl6vkqwZjf2_H2FC1m0AFup1-O1d44juI1ffAT1CwrMwOwSCas");'
+                ></div>
+                <div class="flex flex-col justify-center">
+                  <p class="text-[#0e151b] text-base font-medium leading-normal line-clamp-1">Wireless Earbuds</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal line-clamp-2">Quantity: 2</p>
+                </div>
+              </div>
+              <div class="shrink-0"><p class="text-[#0e151b] text-base font-normal leading-normal">$79.98</p></div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex items-center gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoSmTmDSvL_-lg_1Wpuhn63FPZmxxl23JSUhWx0e9PF6peo5ZtbEYCheZheFXjBozoK1rFaTXJfqXsOeE6aCGeJyph7okHVN9JkNxS6z1kRP4o7YfsTSLKymIthpdk-H4lVH-JzmkGiq7q5nzI6EMoQ9e1Clz2A4vpbZvKjgTGPz7Vlo_y_a4g8cVNcWlmkmjCVVS8hCwlTjrpu6tp56rxXUe-agSlHcQ3AEum--Bg4Z2k1M3fXy9s3P4kE1PMQIiIwnSOQNHiWSY");'
+                ></div>
+                <div class="flex flex-col justify-center">
+                  <p class="text-[#0e151b] text-base font-medium leading-normal line-clamp-1">Fitness Tracker</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal line-clamp-2">Quantity: 1</p>
+                </div>
+              </div>
+              <div class="shrink-0"><p class="text-[#0e151b] text-base font-normal leading-normal">$59.99</p></div>
+            </div>
+            <h2 class="text-[#0e151b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">AI Saving Suggestions</h2>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex items-center gap-4">
+                <div class="text-[#0e151b] flex items-center justify-center rounded-lg bg-[#e7eef3] shrink-0 size-12" data-icon="Star" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col justify-center">
+                  <p class="text-[#0e151b] text-base font-medium leading-normal line-clamp-1">Subscribe to PersonalAI Plus</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal line-clamp-2">Save $10 on your next purchase</p>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#e7eef3] text-[#0e151b] text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Add</span>
+                </button>
+              </div>
+            </div>
+            <p class="text-[#0e151b] text-base font-normal leading-normal pb-3 pt-1 px-4">Estimated Delivery: Tomorrow, June 15</p>
+            <div class="flex justify-stretch">
+              <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 justify-between">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-[#1990e5] text-slate-50 text-base font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Checkout</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-[#e7eef3] text-[#0e151b] text-base font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">You Saved $25 Today!</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
