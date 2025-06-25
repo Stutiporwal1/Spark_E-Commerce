@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Your Personal AI Assistant</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eef3] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0e151b]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path></svg>
+              </div>
+              <h2 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em]">Walmart</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Shop</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Deals</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Services</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Grocery</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#4e7997] flex border-none bg-[#e7eef3] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border-none bg-[#e7eef3] focus:border-none h-full placeholder:text-[#4e7997] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e7eef3] text-[#0e151b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#0e151b]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="Ask me anything..."
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e151b] focus:outline-0 focus:ring-0 border border-[#d0dde7] bg-slate-50 focus:border-[#d0dde7] h-14 placeholder:text-[#4e7997] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex justify-end overflow-hidden px-7 pb-5">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#1990e5] text-slate-50 gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2"
+              >
+                <div class="text-slate-50" data-icon="Microphone" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,176a48.05,48.05,0,0,0,48-48V64a48,48,0,0,0-96,0v64A48.05,48.05,0,0,0,128,176ZM96,64a32,32,0,0,1,64,0v64a32,32,0,0,1-64,0Zm40,143.6V232a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64,64,0,0,0,128,0,8,8,0,0,1,16,0A80.11,80.11,0,0,1,136,207.6Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="flex justify-end overflow-hidden px-7 pb-5">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#1990e5] text-slate-50 gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2"
+              >
+                <div class="text-slate-50" data-icon="PaperPlaneRight" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M223.87,114l-168-95.89A16,16,0,0,0,32.93,37.32l31,90.47a.42.42,0,0,0,0,.1.3.3,0,0,0,0,.1l-31,90.67A16,16,0,0,0,48,240a16.14,16.14,0,0,0,7.92-2.1l167.91-96.05a16,16,0,0,0,.05-27.89ZM48,224l0-.09L78.14,136H136a8,8,0,0,0,0-16H78.22L48.06,32.12,48,32l168,95.83Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0e151b] tracking-light text-[32px] font-bold leading-tight min-w-72">Walmart PersonalAI</p></div>
+            <div class="flex items-end gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA6YYM1X9Pr5EQuqefS0TK2mnGE7jbTSp1Znp5rXp1-CR3A0SB0AngWbbAKBEeREYFW-ff8DNpKQAvTyKBpW3-k-sZ6Gx246Z239pNcCSlO8PXZg7vQiXH_V6O2wbwnQZxmg6AP1KGcUNk3mVkBbemdTqU8jd7SIGIoCwq8awbYgkKzHydwwzK3JgZ05WnKXpGse5iP-lEs5nT3jRJXfvAhIwBP4_mL4bp6oe81V2AjmL0SUcJulq4By9RWgUHfpWXgnqr93J0yeEw");'
+              ></div>
+              <div class="flex flex-1 flex-col gap-1 items-start">
+                <p class="text-[#4e7997] text-[13px] font-normal leading-normal max-w-[360px]">AI Assistant</p>
+                <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e7eef3] text-[#0e151b]">
+                  Hello! How can I assist you today? I can help you find products, compare items, and provide personalized suggestions.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-end gap-3 p-4 justify-end">
+              <div class="flex flex-1 flex-col gap-1 items-end">
+                <p class="text-[#4e7997] text-[13px] font-normal leading-normal max-w-[360px] text-right">User</p>
+                <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#1990e5] text-slate-50">
+                  I'm looking for a new laptop. Can you recommend some options?
+                </p>
+              </div>
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5DoUvjCZqRwdtXb7fTCW-9DuQTy1CJ5UzYSRasXSHvaRaU12wThNqdoFfvUF3YVyvwjAFlbwi6Eosrc3CbyS36jmQcNH4UYbLODGzr9o44cJ7A_Rg1Kl-9dwi7EjsZGnMIQKd_Tr3mO0EGiOAsmAxJAQXY4_cqb0Qec5wj35M_y4vc_lHW4YYFIQk1O9MkgVk3WEGZ55_mxoVNpcWkrJO5E67VihxGAxgLNA9whNOwf_cQjxxKzh04c97YBbUFL8HghJnwkJwdkQ");'
+              ></div>
+            </div>
+            <div class="flex items-end gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8bE6B5ZfVfYCMcswqHNMQIE3QtDqxoBVsLldm9ZQf_NFqQdXxyhzWXCeV70E6bFT2hSefvN_fR2Wjlt0rEgQWruhBbqwVjrrSDKVuRXLqLrc6C5oGgFBLSNBgesA9pMmEXa44VBCoJnSpL3YjZd0PdXgBSGTknUnTLkMQBXkAwrCksFCzSqr7No_hxe3WYqq8-YgA2ITmOcBYPjRBkfr3QPkg-AnrEhUNg1xAU4xc0bqy_cglMpZeOMWWYbW2YJjcM9FPyWZi2Es");'
+              ></div>
+              <div class="flex flex-1 flex-col gap-1 items-start">
+                <p class="text-[#4e7997] text-[13px] font-normal leading-normal max-w-[360px]">AI Assistant</p>
+                <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e7eef3] text-[#0e151b]">
+                  Certainly! I recommend the 'TechPro X15' with 16GB RAM and 512GB SSD, or the 'UltraBook Air' known for its lightweight design and long battery life. Would you
+                  like to compare these?
+                </p>
+              </div>
+            </div>
+            <div class="flex items-end gap-3 p-4 justify-end">
+              <div class="flex flex-1 flex-col gap-1 items-end">
+                <p class="text-[#4e7997] text-[13px] font-normal leading-normal max-w-[360px] text-right">User</p>
+                <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#1990e5] text-slate-50">Yes, please compare them for me.</p>
+              </div>
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAf1kVrUjiyY3EB3U0VASNZ7L92a7nYr69apMK38Uc3c65ZojYqjPuekDsDWsMXSfxVpzVRLZX1t8kN1lP40LOT1a4pclISZgS38Rb_g5JqJonxe-TuFWesT8c6lUGjzxtHpEoOlGfdUjjHHvlOCaQYbMIJIFAZJoZH6nuUhab1hWvWoAXKrCKYKRhPMuPx1_DnsWwhxLsvRagayGqk9qB2X1NKJ5bqX5dP3KFTmULb_TpJMzhEWxjeeQhQCQkBwOEYMUFRsxZFhCo");'
+              ></div>
+            </div>
+            <div class="flex items-end gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjMtEQ_qTq-RLnSFFHFoy6DwW2hmEYOBj7WBurIFHR8a7WmcV-inwW_RUReuhFY55GP1lhsmBWvmZSGPo7cNr_LKTEr-OhWcViidVtTRiCC5aHZF96lsQDUccg0RsGXW4YcjdL25GpDdNNmJCQzE3DA-qWQKywHF8Juarja5MDnozsqmQe2Xaku8p-MFH6jcZoxigEvor-wfrmB9X_0PvrmR7HApze6vTZOTDGQWylVqPUzwSnYNweEPkoHqt29WYfZONzv1uzyKM");'
+              ></div>
+              <div class="flex flex-1 flex-col gap-1 items-start">
+                <p class="text-[#4e7997] text-[13px] font-normal leading-normal max-w-[360px]">AI Assistant</p>
+                <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e7eef3] text-[#0e151b]">
+                  Here's a comparison: The TechPro X15 offers a more powerful processor, while the UltraBook Air excels in portability and battery life. Both have excellent
+                  displays and are suitable for professional use. Which feature is more important to you?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
