@@ -1,0 +1,320 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Beauty &amp; Personal Care</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden"
+      style="--checkbox-tick-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(248,250,252)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e'); --select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(78,121,151)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: &quot;Work Sans&quot;, &quot;Noto Sans&quot;, sans-serif;"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eef3] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0e151b]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <h2 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em]">Evergreen</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Grocery</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Fashion</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Electronics</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Beauty &amp; Personal Care</a>
+              <a class="text-[#0e151b] text-sm font-medium leading-normal" href="#">Home &amp; Kitchen</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded h-full">
+                <div
+                  class="text-[#4e7997] flex border-none bg-[#e7eef3] items-center justify-center pl-4 rounded-l border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded text-[#0e151b] focus:outline-0 focus:ring-0 border-none bg-[#e7eef3] focus:border-none h-full placeholder:text-[#4e7997] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 bg-[#e7eef3] text-[#0e151b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0e151b]" data-icon="Heart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 bg-[#e7eef3] text-[#0e151b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0e151b]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <h2 class="text-[#0e151b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Filters</h2>
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Category</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Makeup</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Skincare</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Haircare</p>
+              </label>
+            </div>
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Brand</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">L'Oreal</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Neutrogena</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Maybelline</p>
+              </label>
+            </div>
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Price Range</h3>
+            <div class="@container">
+              <div class="relative flex w-full flex-col items-start justify-between gap-3 p-4 @[480px]:flex-row">
+                <p class="text-[#0e151b] text-base font-medium leading-normal w-full shrink-[3]">Price</p>
+                <div class="flex h-[38px] w-full pt-1.5">
+                  <div class="flex h-1 w-full rounded-sm bg-[#d0dde7] pl-[60%] pr-[15%]">
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#1990e5]"></div>
+                        <p class="text-[#0e151b] text-sm font-normal leading-normal">$0</p>
+                      </div>
+                    </div>
+                    <div class="h-1 flex-1 rounded-sm bg-[#1990e5]"></div>
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#1990e5]"></div>
+                        <p class="text-[#0e151b] text-sm font-normal leading-normal">$100</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Rating</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">4 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">3 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">2 Stars &amp; Up</p>
+              </label>
+            </div>
+            <h3 class="text-[#0e151b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Customer Reviews</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Positive</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Neutral</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#d0dde7] border-2 bg-transparent text-[#1990e5] checked:bg-[#1990e5] checked:border-[#1990e5] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#d0dde7] focus:outline-none"
+                />
+                <p class="text-[#0e151b] text-base font-normal leading-normal">Negative</p>
+              </label>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <a class="text-[#4e7997] text-base font-medium leading-normal" href="#">Beauty &amp; Personal Care</a>
+              <span class="text-[#4e7997] text-base font-medium leading-normal">/</span>
+              <span class="text-[#0e151b] text-base font-medium leading-normal">All Products</span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#0e151b] tracking-light text-[32px] font-bold leading-tight min-w-72">Beauty &amp; Personal Care</p>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded text-[#0e151b] focus:outline-0 focus:ring-0 border border-[#d0dde7] bg-slate-50 focus:border-[#d0dde7] h-14 bg-[image:--select-button-svg] placeholder:text-[#4e7997] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Sort By: Relevance</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBLDUFI85y4KpjUuH6X6-dgZN1ixl6NcdB-ODQshkpwpGMwKWjMgYiAiTRk_5bO4PA4UpNUUkbdffM-wsGnB_GK_NY49Sl73DtU3bD8RhH-lNehzN7h_YrmWQyXyHN-NXRlNjCDrUeXXVGmCoaNPI-o38_hvB0W-tFOP7YVijhvcjKYwSVjpW0kfbAtvVdyVQztPrzHHu2evn0tu2v85chPXn7d6Y52HAlUTI6_WhH4Y2DBGn-6hFFxNYv-EBFvGYhjaVo0M1frqHQ");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">L'Oreal Paris True Match Foundation</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">$10.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCZL3VZUrn-NOhH2terIomf-dEP1lbswdTOh-5o3AuxvPnd4r9BZj9Aogb9e79pXHVNKCi141EvxYmu2AtAK4A-r46bMLwqirNe6i8H9KCf-Cx6JGhTPglLPylL8x8iHhFhvZYoyugQ-lLHzaSh_xlLGinf9LLEwXmyom8tN_zxpT0SBDsNZYPDm8mibMh8V_FlMwcB_5HMcLqpK_f1uQO2DUpSXDl7gYl3zyXnv02zkn1InL0FBVyL8jUri-BnIsHz2NAaenNGfKc");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Neutrogena Hydro Boost Water Gel</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">$19.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDuk448yi8PWG2atFMPdyYd5wMc61koFHFoYiEnfN0a_KnGOdXP1LQzFx94KAoTO91yinKD8OSacZ27WVdgiTxYzAl9Q-sB3PpwJNWsfxQUqEAXaJD6bG4Ju_A9BXlXu0yKg6mErxJVmrP7-bSf_tdEyFQSESxy-U8fimSqCx8joX1wlBkpr-eF57JsEBQFMAUJU_hXYjW_RDgRL18Kx1HdoiXbtfOISjCbic2WTksD1QE6Q_yWe-FTorrixp3bSSU9lAN0MANOKs8");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Maybelline New York Mascara</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">$8.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBeyuOYylmtx5v5ps6d_vyHDj03_i9ndP_BAVT_Kcwf5yE14ikInG3SMNkUVcGsUvdHpHckc_DrpOrZG2iJhYl5L0EogBGZq4V4Ou6AkMfD5nQrjFsoM-_43OW_PwxN_t9LANh0du4q6dmiHPcHAuRoPTI8qJv9-6_KeVdwoS4w1LQUVRCWPWLCSTjJVYeC3Ei-IaWKXKOFzJ4TByMBSGHXHz4xv7WSmOo-KYHo-vl6UmSlnSOXVJVTflYgYCYdsltNihLnPuwT9j8");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">L'Oreal Paris Elvive Shampoo</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">$6.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD0FD8RlPCpDnvTQ38GGEI6Ga1WzqfdqCOI7_mdKPc5j0yWRS6LZU-717Zw-RxEtli9D-55FoHymFHnQwv49PMt0CBwjB2cVlWPm0cwQlMb0C7gUKuQiv7yRAYDzGPfVzC17NfJIRXBwoqiEqKi09nERcInnKgu1B4AYBduvH8e-n3LeFGW8oxnNPA_Ee0iF__VkmMARbqa-sxdyMRZC4fsXWOcXYC0KGckWbWxV5csNYDVYPx52AvrmNkf6gSQhFlTfkVaLSiUBOM");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Neutrogena Oil-Free Acne Wash</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">$7.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCNACS2bXCKxVtJDzCLgnI7uTgfF8Ijy6JcybBfjN3Qisvkary5j2v5-GQrWLcQe5PgqAxxxRGaVk8_63w77hQni1SwuZABQTmqY_bheurCflPaTAvDPcnONnmnrePiWVXBnjhAgA3spPLiap0jd6wXLpni_aO-ZSAXhLsMQkmoNptxLDYD7eLLJ4SNJRFT_XKakD_0H5XsnX1PrpE8WaupsWpY3w3okHXrQe7UE63Cj1VqtCNWHdesBQdpOLmNtLaoS5ORqbndOI");'
+                ></div>
+                <div>
+                  <p class="text-[#0e151b] text-base font-medium leading-normal">Maybelline Fit Me Concealer</p>
+                  <p class="text-[#4e7997] text-sm font-normal leading-normal">$6.49</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center p-4">
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#0e151b]" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-[#0e151b] rounded-full bg-[#e7eef3]" href="#">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">2</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">3</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">4</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#0e151b] rounded-full" href="#">5</a>
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#0e151b]" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
