@@ -1,0 +1,443 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+      style='--checkbox-tick-svg: url(&apos;data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(18,20,23)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e&apos;); font-family: "Work Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f1f2f4] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#121417]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <h2 class="text-[#121417] text-lg font-bold leading-tight tracking-[-0.015em]">Evergreen</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#121417] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#121417] text-sm font-medium leading-normal" href="#">Categories</a>
+              <a class="text-[#121417] text-sm font-medium leading-normal" href="#">Deals</a>
+              <a class="text-[#121417] text-sm font-medium leading-normal" href="#">Services</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div
+                  class="text-[#677683] flex border-none bg-[#f1f2f4] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#121417] focus:outline-0 focus:ring-0 border-none bg-[#f1f2f4] focus:border-none h-full placeholder:text-[#677683] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f1f2f4] text-[#121417] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#121417]" data-icon="Heart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f1f2f4] text-[#121417] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#121417]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDgR6dJR9QllqLuIDX_2eDNP2bSYTRpg0bGwKfriW-gkZ94zWZS-suV_CEqHQ_e8mxkfrZGKTRBvZMWWs2IEM7Nvp4HJOlbtxE7WnpbLMd_93OwRHlo6GnpmVhgOoiun2LU2TB_Btz79_iLONkqWLfve2le0mHreC_h0Df7vKkHlFkJFHsaqU0xkOB6ezWUBz6DdDbMvQJEBze0B_NqhCMXu81lmgPfaTr0c2dxEXVGfWz_Agi9G6EmjL_7g4n8X_Ar89jznAsuTPI");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <h2 class="text-[#121417] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Filters</h2>
+            <h3 class="text-[#121417] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Category</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Electronics</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Home Appliances</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Accessories</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Computers</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Audio</p>
+              </label>
+            </div>
+            <h3 class="text-[#121417] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Brand</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">TechVision</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">SoundWave</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">HomeTech</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">GadgetPro</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">ElectroLux</p>
+              </label>
+            </div>
+            <h3 class="text-[#121417] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Type</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Smart TVs</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">LED TVs</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">OLED TVs</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">QLED TVs</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Laptops</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Headphones</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Smartphones</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">Tablets</p>
+              </label>
+            </div>
+            <h3 class="text-[#121417] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Price Range</h3>
+            <div class="@container">
+              <div class="relative flex w-full flex-col items-start justify-between gap-3 p-4 @[480px]:flex-row">
+                <p class="text-[#121417] text-base font-medium leading-normal w-full shrink-[3]">Price</p>
+                <div class="flex h-[38px] w-full pt-1.5">
+                  <div class="flex h-1 w-full rounded-sm bg-[#dde1e4] pl-[60%] pr-[15%]">
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#121417]"></div>
+                        <p class="text-[#121417] text-sm font-normal leading-normal">$100</p>
+                      </div>
+                    </div>
+                    <div class="h-1 flex-1 rounded-sm bg-[#121417]"></div>
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#121417]"></div>
+                        <p class="text-[#121417] text-sm font-normal leading-normal">$2000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="text-[#121417] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Rating</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">4 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">3 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">2 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#dde1e4] border-2 bg-transparent text-[#5b9bd6] checked:bg-[#5b9bd6] checked:border-[#5b9bd6] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#dde1e4] focus:outline-none"
+                />
+                <p class="text-[#121417] text-base font-normal leading-normal">1 Star &amp; Up</p>
+              </label>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <a class="text-[#677683] text-base font-medium leading-normal" href="#">Electronics</a>
+              <span class="text-[#677683] text-base font-medium leading-normal">/</span>
+              <span class="text-[#121417] text-base font-medium leading-normal">New Models</span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#121417] tracking-light text-[32px] font-bold leading-tight min-w-72">Electronics - New Models</p>
+            </div>
+            <div class="flex justify-between gap-2 px-4 py-3">
+              <div class="flex gap-2">
+                <button class="p-2 text-[#121417]">
+                  <div class="text-[#121417]" data-icon="SortAscending" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,128a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16h72A8,8,0,0,1,128,128ZM48,72H184a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16Zm56,112H48a8,8,0,0,0,0,16h56a8,8,0,0,0,0-16Zm125.66-21.66a8,8,0,0,0-11.32,0L192,188.69V112a8,8,0,0,0-16,0v76.69l-26.34-26.35a8,8,0,0,0-11.32,11.32l40,40a8,8,0,0,0,11.32,0l40-40A8,8,0,0,0,229.66,162.34Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#5b9bd6] text-[#121417] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-4"
+              >
+                <div class="text-[#121417]" data-icon="CaretDown" data-size="20px" data-weight="fill">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,48,88H208a8,8,0,0,1,5.66,13.66Z"></path>
+                  </svg>
+                </div>
+                <span class="truncate">Sort by</span>
+              </button>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCawRy-maW1f9aNmzhQ8ZI34g-mzEG0-q9zzlb0qoxOM8Vb6YGHMyxO-bULlSyTEXaOPxW6mcw5HifQBlUXbaqEbTNJYOmqyN_L60_ABZNOW45j2oqJGimjElMWg5tSpbp60bM_-ZFmoqdu1CpIF4EeHhNVUTwghzgD2rYsLrcZutir0z1sCMhEHYmx5ewgp0EVP2KIL9mcy7BvuuUfkmEJVVJ7XIPdt-qtnp03CVzeDYAEPqikSOITgSYnQBf_mgtNB9A3jpTTxoM");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">TechVision 4K Smart TV</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">55-inch, 4K UHD, HDR</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVoPbir9jPRnIn0n8AhVlbq-5hVXNkBcl07rnIsygrOgD16PpdfR4Tisi-gbS9OWHdnOdGGxl3XqX3Q7f_myptnSnWCNjIi2KCmokoQegAmK5IYnop5-G4x6oe8baWJLaEHcTf5PrmtFM8Xit4UtWNpeuR7lWI-kywruGeeYERcuOwTudOrS2MusXfW7NxNZGS_ZWQHJHlVE5rhSPONSe2q3DrvPoyqgm673L2p_sxRfYdXHmHwHC9XzMu7eT_6TLtED-1HssABVk");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">SoundWave LED TV</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">43-inch, Full HD, Smart</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuARSwWvCi6sBWV0SlvVDjD2ZAexDDBUGzAVFs0qAALb5hpZV8lHPX9jyZDgaQlGD72VY7vzyQfpEEpSN9LlECC2vuOZAjjxdkxqSKlfSaGNsp5ErgRQHCr_xk2qAD1jBMjBBrDstGJ2QrzKK1qWh-py0dw3plYt6jxSlW9XVC2iIooplOOwnJ8MpbMlqDE7VtM4SwN_SfoTD9vVOxCjhtY0ZAaO6XLzNtsr5__Rr7q17GiSEavFfpJHVc3FCg0LAZmYjyUIqHf3sVI");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">HomeTech OLED TV</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">65-inch, 4K UHD, OLED</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1lop8y_3H8-xC8zziDrSCfjNWkAElo0K0HBNRBZCxqOYR7CF59PC5DNq5Edr3AkL9lsDf-KUAb7ifgPkPzGNevP2vpyN5q2N0Qn2spzJr-Xx9Q1JI_do0IjiLvLLPuwJaqqZKm0CTx-uBL5etYXUpzZ4EKnw2oIYmCfiKUEkOUre_A9KqZlnodRfb7dWAI-Y73i6pxGye4Mkvh-oCYN0yV-CrU_g3SegCdQBL3mWO-lQZOowcOJjFc-dC71AU2X-yYtVMfl6ocXo");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">GadgetPro QLED TV</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">50-inch, 4K UHD, QLED</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6GwXyPdHhmReGA0CohURedOz3tDRktgR3Am_eOpc1jLQN2GNH_OPCWgVn2F3-oiLp3ZQEu28POaiBHHyz9bA5DZ-jiIp6LYShsx3YEJmPbNMOPqoulLxx7cRfDX8RquvTUgv0wBb0cMWDGj6l9YZolepICg0tG8Egn0XSJWX9viZfInOoJDD-Zea43QJki7TMFf7bprt2L0ORT1nQOVNdjr2laqmZyqENaffSf7LgpOshyn8LL16YnqIdDCjIwBSkIb1knALvPTI");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">ElectroLux Smart TV</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">32-inch, HD, Smart</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAusNLyjLRH2C8M9W_ilhJxqdPyvPil2LC0tTO0CgMgfwqF5Gu35lqN_L-FWGx-7ygqT0ouw-Hj48RP0IKgmWAigN6BuzRzpe89pz0VJ-99foF4QZxIM_KvVfwKPlg00UQaCghWx0F-gjOL2sksJwo-uNdYi_47Xz-QVpwwZzYVZRKJOVX5Q9eRi6vV2uVawnXofZe2fUHskiQ-ETVwawH2psF0TaYc1hc9kWhuwYoVp3cBP5kCIQ4BCprsyUhi_ylpguJNI7qNbME");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">TechVision Laptop X1</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">15-inch, Intel i7, 16GB RAM</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCP0NWxXQIax_XFGdsHHLsIJD4NVf-jpqWrPqMj63_V9_zwfTp8i6LbZ8Rq4OYRJXkBfb5cpIrC9mneGgsDuNJoi21bnfZ7BFrepnRQKsMrbJYNzbG0NXfCZgY5tmKaDUOrymTwyI0uNm7TWJQyAH7umMFzGpttTBkK50NqWxhtCcIcT0sMv57h7ATtIaWO3hZje85sNHbarvMnKcRRO7DQggLSKuM1kkDZyu89dPyr6-_tBI_wLClctMVdmkceUhiE08R2y2-r_Ng");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">SoundWave Noise-Canceling Headphones</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">Bluetooth 5.0, 20h Battery</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQKeZtStpfhc7CfxEJ16PAFe5NBzTR-0QZeI1G32ggKG6H7bNzrnxVNQAG2pt2mwotjI7OKEXQx-Wbo4NESbwisyT_NGB4fAzz_Pu-JPXeaTidVGH95OGSk90-2v8h4JgJEswBcdcGJBoSquYzd7RshBmtMw3UH0_rqxFTC16Gbr62UasPtKfifg8UL-Vikh0lRA-UUBAfNp_MaBKPhrFb8FuxHjFGjCTgYXC6B0yb_UrtzjCYc-qIxME0XZyt9e_UI4f9B023Dlc");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">HomeTech Smartphone Z2</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">6.5-inch, 128GB, 5G</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCYI4C2iW7ctIZheQVoH5lA-Wct3PA8xXP9o164kWOO5ucTaBgB9Sow3O-vrgDlfLzvk2wUoSbXZeMQi7eDJaSdrbBbivFS7i8SqibMnqX-6ob35kq4lbQZwOmdvFIKQfdxmEtLWxBSwVSZNU_Kqc7ljRp79fantkjfhAa5I8RrtT3PFdfFYDfonQlWqJxBs15ccIwjHhiMIoREw5t4Yc-YtefmGJBRjyD6S9UpSYHhL-o0mEoi0iNBR9dcNI_dp4hmbHAi9LUqIso");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">GadgetPro Tablet T3</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">10-inch, 64GB, WiFi</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDO2PKpxGJuuaUxHo3Wjws3EXevk9x61Zibo0Srsiv86odaUQZ5nng0pttWdP4OsepP0CX4hlyGWlzeZtkHf-FQfDFyoiKiUa1feZ_clsqPexZwvPTjweoD3is3YZvJO6gB9D6LdrY0RVKFPMR6wO5yIMS8Cykj0yHNZOwQbr6RvwPDtz6tR6j3BMqUF1rSlKDTuWRdjqvZTgLtoH4uYdIKUzvpHQn2kq_l8c33YDZrrZvue_MzEUAqCYhxtVV8j2kTVMBg9Dn-nhI");'
+                ></div>
+                <div>
+                  <p class="text-[#121417] text-base font-medium leading-normal">ElectroLux Wireless Earbuds</p>
+                  <p class="text-[#677683] text-sm font-normal leading-normal">Bluetooth 5.2, 8h Battery</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center p-4">
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#121417]" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-[#121417] rounded-full bg-[#f1f2f4]" href="#">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#121417] rounded-full" href="TV.html">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#121417] rounded-full" href="Televisions.html">2</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#121417] rounded-full" href="Electronics_NewModels.html">3</a>
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#121417]" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
